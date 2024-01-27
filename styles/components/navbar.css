@@ -1,0 +1,16 @@
+  .navbar {
+    background-color: var(--black-pearl) !important;
+    font-family: poppins;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  .navbar .nav-link {
+    color: var(--white-smoke);
+  }
+
+  .navbar .nav-link.active {
+    color: var(--primary);
+  }

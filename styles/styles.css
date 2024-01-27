@@ -1,0 +1,6 @@
+/* import css file */
+@import './global.css';
+@import './components/navbar.css';
+@import './components/masthead.css';
+@import './components/footer.css';
+@import './components/experience.css';

@@ -1,0 +1,13 @@
+.masthead {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.masthead h1 {
+  font-size: 3rem;
+  font-family: poppins;
+}

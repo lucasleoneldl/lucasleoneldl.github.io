@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
+
+:root {
+  --primary: #c70039;
+  --white-smoke: #f5f5f5;
+  --white: #ffffff;
+  --black: #000000;
+  --black-pearl: #171717;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utilities */
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.card {
+  background-color: var(--black-pearl);
+  color: var(--white-smoke);
+  border-color: var(--white-smoke);
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: poppins;
+}
+
+body {
+  background-color: var(--black-pearl);
+  color: var(--white-smoke);
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: var(--primary) var(--black-pearl);
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--black-pearl);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 10px;
+  border: 3px solid var(--black-pearl);
+}
+
