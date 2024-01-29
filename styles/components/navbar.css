@@ -1,5 +1,5 @@
   .navbar {
-    background-color: var(--black-pearl) !important;
+    background-color: var(--black-pearl-semitransparent) !important;
     font-family: poppins;
     position: fixed;
     top: 0;

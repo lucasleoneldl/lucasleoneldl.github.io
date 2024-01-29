@@ -1,0 +1,33 @@
+#experience,
+#aboutme {
+  scroll-margin-top: 100px;
+}
+
+.aboutme {
+  position: relative;
+}
+
+.aboutme .img-container {
+  border-radius: 20px;
+}
+
+.aboutme .img-container::after {
+  max-width: 300px;
+}
+
+.aboutme img {
+  filter: grayscale(100%);
+  transition: all 0.5s ease-in-out;
+  max-width: 300px;
+  width: 100%;
+}
+
+.aboutme img:hover {
+  filter: grayscale(0%);
+}
+
+.aboutme .img-container::after,
+.aboutme img {
+  border-radius: 40px 0;
+}
+
