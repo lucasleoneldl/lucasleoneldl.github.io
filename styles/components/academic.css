@@ -1,0 +1,14 @@
+.academic .academic-title {
+  margin: 40px 0;
+}
+
+.academic .academic-body ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.academic .academic-body ul li{
+  list-style-type: none;
+  margin-bottom: 3rem;
+  width: 300px;
+}
